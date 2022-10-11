@@ -12,7 +12,7 @@ It looks for 3 things,
   
 <h6>setup and recommendation</h6>
 <pre>at 
-line 2: const token = "<your_discord_hook_url>"; #put your own discord chat room hook</pre> 
+line 2: const token = "#put your own discord chat room hook here"; </pre> 
 
 <pre>
 at
@@ -22,7 +22,7 @@ line 103 },300000)
 </pre>
 here it is set to run every 5 minutes, you can change it as per you requirement.
 
-also if not necessary the dont use <pre>setIntercal()</pre> insted use a shellscript like:
+also if not necessary then don't use <pre>setIntercal()</pre> insted use a shellscript like:
 <pre>
 until [true]
 do
@@ -31,3 +31,9 @@ node index.js
 sleep 5m   
 done
 </pre>
+lastly
+<pre>
+at line 67: const msgSend = (m,t,r=0) => {
+</pre>
+this function is sending every finds individually, you can compose 1 single embed containing upto 15 individual field, but that will not allow every individual pokemon image thumbnail, because embeds can only have 1 Image and 1 Thumbnail
+
