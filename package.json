@@ -1,0 +1,15 @@
+{
+  "name": "pokeradar",
+  "version": "1.0.0",
+  "description": "Simply fetch all the spawn data from nycpokemap.com and process then according",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "UOA-ROOT",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "discord.js": "^14.3.0"
+  }
+}
