@@ -31,9 +31,11 @@ node index.js
 sleep 5m   
 done
 </pre>
-lastly
 <pre>
 at line 67: const msgSend = (m,t,r=0) => {
 </pre>
 this function is sending every finds individually, you can compose 1 single embed containing upto 15 individual field, but that will not allow every individual pokemon image thumbnail, because embeds can only have 1 Image and 1 Thumbnail
+
+lastly, pvpList.json file is based on "pvpoke.com"s overall rank list for "Greate League" and "Ultra League", and is bound to changes in future, it conrains top 200 pokemons only but it also have all the pokemons that can be evolve into the said pokemon, 
+feel free to generate your own list.
 
