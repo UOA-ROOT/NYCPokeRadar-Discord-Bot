@@ -23,7 +23,7 @@ line 101: setInterval(()=>{
 line 102   setData()
 line 103 },300000)
 </pre>
-here it is set to run every 5 minutes, you can change it as per you requirement.
+here it is set to run every 5 minutes, you can change it as per your requirement.
 
 also if not necessary then don't use <pre>setIntercal()</pre> insted use a shellscript like:
 <pre>
