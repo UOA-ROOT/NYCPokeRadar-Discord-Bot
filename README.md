@@ -3,6 +3,7 @@
 <h5>Description</h5>
 This discord bot will let you know all pokemon spawn in nyc. This discord bot fetches pokemon spawn data from "https://nycpokemap.com/" and find meta relevent pokemons, after finding all the pokemons it then sends all of them to your discord chat room using discord web hook. 
 
+
 fetches data from "https://nycpokemap.com/"  ==>> process it ==>> send to discord server using webhook. 
 
 It looks for 3 things,
